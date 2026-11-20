@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sylve Tiny Houses</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Sylve fabrique à la main, dans le Vercors, des tiny houses en bois de 14 à 34 m². Site de démonstration.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,0..100;1,9..144,300..600,0..100&family=Hanken+Grotesk:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<!--HEAD-END-->
+</head>
+<body>
+<!--BODY-START-->
+<script>document.documentElement.classList.add('js');</script>
+
+<!-- Intro : deux battants de porte qui s'ouvrent sur la Hero -->
+<div class="intro" aria-hidden="true">
+  <div class="intro__door intro__door--l"></div>
+  <div class="intro__door intro__door--r"></div>
+  <div class="intro__mark">
+    <span class="intro__word">Sylve</span>
+    <span class="intro__lamp"></span>
+    <span class="intro__place">Ateliers du Vercors</span>
+  </div>
+</div>
+
+<div class="progress" aria-hidden="true"><span></span></div>
+
+<header class="nav" id="top">
+  <div class="nav__inner">
+    <a class="nav__logo" href="#hero" aria-label="Sylve, retour en haut">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 4 L35 18 V36 H5 V18 Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M20 14 V36 M20 22 L14 17 M20 27 L27 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none"/></svg>
+      <span>Sylve</span>
+    </a>
+    <nav class="nav__links" aria-label="Navigation principale">
+      <a href="#modeles">Modèles</a>
+      <a href="#atelier">Savoir-faire</a>
+      <a href="#configurateur">Configurer</a>
+      <a href="#avis">Avis</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn--small nav__cta" href="#contact"><span>Visiter l'atelier</span></a>
+    <button class="nav__burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="menu" id="menu" hidden>
+  <nav aria-label="Menu mobile">
+    <a href="#modeles">Modèles</a>
+    <a href="#atelier">Savoir-faire</a>
+    <a href="#configurateur">Configurer</a>
+    <a href="#avis">Avis</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <p class="menu__foot">Atelier Sylve · Villard-de-Lans, Isère</p>
+</div>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero" aria-label="Accueil">
+  <div class="hero__stage">
+    <div class="hero__plane hero__plane--sky"><img src="assets/img/hero-sky.webp" alt="" width="2000" height="1333" fetchpriority="high"></div>
+    <h1 class="hero__title">
+      <span class="line"><span>Vivre petit,</span></span>
+      <span class="line line--indent"><span><em>respirer</em> grand.</span></span>
+    </h1>
+    <div class="hero__plane hero__plane--fg"><img src="assets/img/hero-fg.webp" alt="Tiny house Sylve en bardage bois, lampes allumées au crépuscule, allée de gravier" width="2000" height="1333" fetchpriority="high"></div>
+    <div class="hero__mist" aria-hidden="true"></div>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="hero__meta">
+      <p class="hero__lede">Tiny houses en bois massif, fabriquées à la main dans le Vercors et livrées partout en France.</p>
+      <div class="hero__actions">
+        <a class="btn btn--light" href="#modeles"><span>Découvrir les modèles</span></a>
+        <a class="link link--light" href="#configurateur">Configurer la vôtre</a>
+      </div>
+    </div>
+    <p class="hero__second" aria-hidden="true">De 14 à 34&nbsp;m², pensées pour durer cinquante ans.</p>
+    <div class="hero__curtain" aria-hidden="true"></div>
+  </div>
+</section>
+
+<!-- ============ MANIFESTE ============ -->
+<section class="manifesto" id="manifeste" aria-labelledby="manifesto-title">
+  <div class="wrap manifesto__grid">
+    <h2 class="sr-only" id="manifesto-title">Notre approche</h2>
+    <p class="manifesto__text" data-words>Chez Sylve, nous construisons des maisons qui tiennent sur une remorque et dans une vie entière. Du mélèze des Alpes, de la laine de bois, des fenêtres taillées pour le paysage. Rien de superflu, tout ce qui compte.</p>
+    <figure class="manifesto__img manifesto__img--a" data-parallax="-12"><img src="assets/img/craft-hands.webp" alt="Mains d'un charpentier mesurant une planche à l'atelier" loading="lazy" width="1100" height="1650"></figure>
+    <figure class="manifesto__img manifesto__img--b" data-parallax="10"><img src="assets/img/interior-stove.webp" alt="Intérieur en bois avec poêle à bois et peau de mouton" loading="lazy" width="1100" height="1650"></figure>
+    <dl class="facts">
+      <div><dt>Atelier</dt><dd>Villard-de-Lans, Isère</dd></div>
+      <div><dt>Surfaces</dt><dd>14 à 34&nbsp;m²</dd></div>
+      <div><dt>Fabrication</dt><dd>10 à 14 semaines</dd></div>
+      <div><dt>Garantie</dt><dd>Décennale, structure bois</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- ============ MODELES ============ -->
+<section class="models" id="modeles" aria-labelledby="models-title">
+  <div class="models__pin">
+    <div class="models__track">
+      <div class="models__intro">
+        <p class="eyebrow">La collection</p>
+        <h2 id="models-title" class="h2">Quatre maisons, une même exigence.</h2>
+        <p class="models__sub">Chaque modèle se décline en trois bardages et une dizaine d'options. Les prix s'entendent TTC, livraison en France métropolitaine comprise jusqu'à 600&nbsp;km.</p>
+      </div>
+
+      <article class="model" data-model="seve">
+        <div class="model__media"><img src="assets/img/model-seve.webp" alt="Petite cabane cintrée en bois éclairée de nuit, portes ouvertes" loading="lazy" width="1800" height="1200"></div>
+        <div class="model__body">
+          <h3 class="model__name">Sève</h3>
+          <p class="model__desc">Le studio nomade. Une pièce lumineuse, un lit en alcôve, une cuisine qui se range.</p>
+          <dl class="model__specs">
+            <div><dt>Surface</dt><dd>14&nbsp;m²</dd></div>
+            <div><dt>Couchages</dt><dd>1 à 2</dd></div>
+            <div><dt>Base</dt><dd>Remorque 6,0&nbsp;m</dd></div>
+          </dl>
+          <div class="model__foot">
+            <p class="model__price"><span>À partir de</span> 39&nbsp;900&nbsp;€</p>
+            <a class="link" href="#configurateur" data-pick="seve">Configurer Sève</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="model" data-model="refuge">
+        <div class="model__media model__media--tall"><img src="assets/img/model-refuge.webp" alt="Cabane en bois avec grande baie triangulaire au milieu des arbres" loading="lazy" width="1100" height="1650"></div>
+        <div class="model__body">
+          <h3 class="model__name">Refuge</h3>
+          <p class="model__desc">Notre best-seller. Une chambre fermée, un séjour traversant, une baie plein ouest.</p>
+          <dl class="model__specs">
+            <div><dt>Surface</dt><dd>20&nbsp;m²</dd></div>
+            <div><dt>Couchages</dt><dd>2 à 3</dd></div>
+            <div><dt>Base</dt><dd>Remorque 7,2&nbsp;m</dd></div>
+          </dl>
+          <div class="model__foot">
+            <p class="model__price"><span>À partir de</span> 54&nbsp;900&nbsp;€</p>
+            <a class="link" href="#configurateur" data-pick="refuge">Configurer Refuge</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="model" data-model="cime">
+        <div class="model__media model__media--tall"><img src="assets/img/model-cime.webp" alt="Chalet en A au toit sombre parmi les pins" loading="lazy" width="1100" height="1650"></div>
+        <div class="model__body">
+          <h3 class="model__name">Cime</h3>
+          <p class="model__desc">Le A-frame des familles. Mezzanine sous la pente, deux chambres, une vraie entrée.</p>
+          <dl class="model__specs">
+            <div><dt>Surface</dt><dd>26&nbsp;m² + mezz.</dd></div>
+            <div><dt>Couchages</dt><dd>4</dd></div>
+            <div><dt>Base</dt><dd>Pieux vissés</dd></div>
+          </dl>
+          <div class="model__foot">
+            <p class="model__price"><span>À partir de</span> 69&nbsp;900&nbsp;€</p>
+            <a class="link" href="#configurateur" data-pick="cime">Configurer Cime</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="model" data-model="large">
+        <div class="model__media"><img src="assets/img/model-grandlarge.webp" alt="Grand chalet en A avec terrasse en bois dans une forêt de pins" loading="lazy" width="1800" height="1200"></div>
+        <div class="model__body">
+          <h3 class="model__name">Grand Large</h3>
+          <p class="model__desc">Une résidence principale à l'échelle humaine. Deux chambres, bureau, terrasse couverte.</p>
+          <dl class="model__specs">
+            <div><dt>Surface</dt><dd>34&nbsp;m²</dd></div>
+            <div><dt>Couchages</dt><dd>4 à 6</dd></div>
+            <div><dt>Base</dt><dd>Pieux vissés</dd></div>
+          </dl>
+          <div class="model__foot">
+            <p class="model__price"><span>À partir de</span> 84&nbsp;900&nbsp;€</p>
+            <a class="link" href="#configurateur" data-pick="large">Configurer Grand Large</a>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="models__rail" aria-hidden="true"><span></span></div>
+  </div>
+</section>
+
+<!-- ============ ATELIER : la maison se construit au scroll ============ -->
+<section class="atelier" id="atelier" aria-labelledby="atelier-title">
+  <div class="atelier__pin">
+    <div class="wrap atelier__grid">
+      <div class="atelier__copy">
+        <p class="eyebrow">Savoir-faire</p>
+        <h2 class="h2" id="atelier-title">Une maison, cinq gestes.</h2>
+        <ol class="steps">
+          <li class="step is-active">
+            <h3>Le châssis</h3>
+            <p>Acier galvanisé à chaud, homologué route, dimensionné pour 3,5&nbsp;tonnes. C'est lui qui permet de partir.</p>
+          </li>
+          <li class="step">
+            <h3>L'ossature</h3>
+            <p>Épicéa du Jura séché à 15&nbsp;%, assemblé à l'atelier. Chaque montant est contrôlé avant la pose.</p>
+          </li>
+          <li class="step">
+            <h3>L'isolation</h3>
+            <p>145&nbsp;mm de laine de bois dans les murs, 200&nbsp;mm en toiture. L'hiver du Vercors reste dehors.</p>
+          </li>
+          <li class="step">
+            <h3>Le bardage</h3>
+            <p>Mélèze brut ou brûlé à la japonaise, posé planche par planche, à claire-voie ventilée.</p>
+          </li>
+          <li class="step">
+            <h3>La lumière</h3>
+            <p>Toiture, menuiseries bois-alu, poêle. Puis la première flambée, le soir de la livraison.</p>
+          </li>
+        </ol>
+        <div class="steps__rail" aria-hidden="true"><span></span></div>
+      </div>
+      <div class="atelier__visual">
+        <svg class="house house--build" id="buildHouse" viewBox="0 0 900 520" role="img" aria-label="Schéma d'une tiny house Sylve sur remorque, construite étape par étape"></svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MATIERES ============ -->
+<section class="materials" aria-labelledby="materials-title">
+  <div class="wrap">
+    <div class="materials__head">
+      <h2 class="h2" id="materials-title">Des matières qui vieillissent bien.</h2>
+      <p>Nous travaillons avec quatre scieries situées à moins de 120&nbsp;km de l'atelier. Le bois garde ses nœuds, ses veines et son odeur.</p>
+    </div>
+    <div class="materials__grid">
+      <figure class="mat mat--1" data-reveal><div class="mat__img"><img src="assets/img/craft-plane.webp" alt="Charpentier rabotant une planche de bois" loading="lazy" width="1800" height="1200"></div><figcaption><strong>Mélèze des Alpes</strong> Imputrescible, il grise en argent avec les années.</figcaption></figure>
+      <figure class="mat mat--2" data-reveal><div class="mat__img"><img src="assets/img/craft-saw.webp" alt="Artisan découpant une pièce de bois à l'atelier" loading="lazy" width="1100" height="1650"></div><figcaption><strong>Épicéa du Jura</strong> Léger et droit, pour l'ossature.</figcaption></figure>
+      <figure class="mat mat--3" data-reveal><div class="mat__img"><img src="assets/img/forest-cabin.webp" alt="Cabane en bois sombre au cœur d'une forêt" loading="lazy" width="1100" height="1650"></div><figcaption><strong>Bois brûlé</strong> Shou-sugi-ban, sans entretien pendant trente ans.</figcaption></figure>
+      <figure class="mat mat--4" data-reveal><div class="mat__img"><img src="assets/img/autumn-aframe.webp" alt="Chalet en A dans une forêt d'automne" loading="lazy" width="1100" height="1466"></div><figcaption><strong>Huile de lin</strong> La seule finition intérieure que nous utilisons.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INTERIEUR : la fenêtre s'ouvre ============ -->
+<section class="window" aria-labelledby="window-title">
+  <div class="window__pin">
+    <div class="window__frame">
+      <img src="assets/img/interior-living.webp" alt="Séjour en bois chaleureux avec canapé, poutres et grande fenêtre" loading="lazy" width="1800" height="1200">
+    </div>
+    <div class="window__copy">
+      <h2 class="h2" id="window-title">À l'intérieur, chaque centimètre a un métier.</h2>
+      <ul class="window__notes">
+        <li>Escalier-rangement en chêne massif</li>
+        <li>Lit 160 × 200 en mezzanine</li>
+        <li>Poêle à bois 5&nbsp;kW, autonomie d'une nuit</li>
+        <li>Cuisine de 1,80&nbsp;m avec four et lave-vaisselle</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONFIGURATEUR ============ -->
+<section class="config" id="configurateur" aria-labelledby="config-title">
+  <div class="wrap">
+    <div class="config__head">
+      <p class="eyebrow">Configurateur</p>
+      <h2 class="h2" id="config-title">Composez la vôtre.</h2>
+      <p>Une estimation immédiate, sans engagement. Le devis définitif est établi après la visite de votre terrain.</p>
+    </div>
+    <div class="config__grid">
+      <div class="config__preview">
+        <div class="config__stage">
+          <svg class="house house--config" id="configHouse" viewBox="0 0 900 520" role="img" aria-label="Vue schématique de la tiny house configurée"></svg>
+        </div>
+        <div class="config__summary" aria-live="polite">
+          <p class="config__label">Estimation TTC</p>
+          <p class="config__total"><span id="total">54 900</span>&nbsp;€</p>
+          <p class="config__recap" id="recap">Refuge · Mélèze naturel · Bac acier anthracite</p>
+        </div>
+      </div>
+
+      <form class="config__form" id="configForm" novalidate>
+        <fieldset>
+          <legend>Modèle</legend>
+          <div class="choice-grid">
+            <label class="choice"><input type="radio" name="model" value="seve" id="m-seve"><span><strong>Sève</strong><small>14 m² · 39 900 €</small></span></label>
+            <label class="choice"><input type="radio" name="model" value="refuge" id="m-refuge" checked><span><strong>Refuge</strong><small>20 m² · 54 900 €</small></span></label>
+            <label class="choice"><input type="radio" name="model" value="cime" id="m-cime"><span><strong>Cime</strong><small>26 m² · 69 900 €</small></span></label>
+            <label class="choice"><input type="radio" name="model" value="large" id="m-large"><span><strong>Grand Large</strong><small>34 m² · 84 900 €</small></span></label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Bardage</legend>
+          <div class="swatches">
+            <label class="swatch"><input type="radio" name="clad" value="meleze" id="c-meleze" checked><span class="swatch__chip" style="--chip:#B78252"></span><span>Mélèze naturel</span></label>
+            <label class="swatch"><input type="radio" name="clad" value="brule" id="c-brule"><span class="swatch__chip" style="--chip:#2E2925"></span><span>Bois brûlé <small>+2 400 €</small></span></label>
+            <label class="swatch"><input type="radio" name="clad" value="douglas" id="c-douglas"><span class="swatch__chip" style="--chip:#8F8B80"></span><span>Douglas grisé <small>+900 €</small></span></label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Toiture</legend>
+          <div class="swatches">
+            <label class="swatch"><input type="radio" name="roof" value="acier" id="r-acier" checked><span class="swatch__chip" style="--chip:#2B2F2D"></span><span>Bac acier anthracite</span></label>
+            <label class="swatch"><input type="radio" name="roof" value="zinc" id="r-zinc"><span class="swatch__chip" style="--chip:#A3A9A6"></span><span>Zinc naturel <small>+1 900 €</small></span></label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Options</legend>
+          <div class="options">
+            <label class="opt"><input type="checkbox" name="opt" value="poele" id="o-poele" checked><span>Poêle à bois 5 kW</span><small>+2 900 €</small></label>
+            <label class="opt"><input type="checkbox" name="opt" value="solaire" id="o-solaire"><span>Kit solaire autonome 3 kWc</span><small>+7 400 €</small></label>
+            <label class="opt"><input type="checkbox" name="opt" value="terrasse" id="o-terrasse"><span>Terrasse en mélèze 8 m²</span><small>+3 800 €</small></label>
+            <label class="opt"><input type="checkbox" name="opt" value="toilettes" id="o-toilettes"><span>Toilettes sèches design</span><small>+1 200 €</small></label>
+            <label class="opt"><input type="checkbox" name="opt" value="hiver" id="o-hiver"><span>Pack grand froid (triple vitrage)</span><small>+2 600 €</small></label>
+          </div>
+        </fieldset>
+
+        <a class="btn btn--dark config__cta" href="#contact" id="configCta"><span>Demander ce devis</span></a>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AVIS ============ -->
+<section class="reviews" id="avis" aria-labelledby="reviews-title">
+  <div class="wrap">
+    <div class="reviews__head">
+      <h2 class="h2" id="reviews-title">Ils y vivent déjà.</h2>
+      <div class="reviews__nav">
+        <button class="round" type="button" id="revPrev" aria-label="Avis précédent"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+        <button class="round" type="button" id="revNext" aria-label="Avis suivant"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+      </div>
+    </div>
+    <div class="reviews__stage" aria-live="polite">
+      <figure class="review is-active">
+        <blockquote>« On a quitté un trois-pièces à Lyon pour un Refuge au bord du Vercors. Deux ans plus tard, on ne regrette que de ne pas l'avoir fait avant. »</blockquote>
+        <figcaption><strong>Camille &amp; Théo</strong> Refuge, Autrans · 2024</figcaption>
+      </figure>
+      <figure class="review">
+        <blockquote>« L'équipe a tout géré, du dossier en mairie jusqu'à la grue le jour J. La maison sent encore le mélèze quand il pleut. »</blockquote>
+        <figcaption><strong>Hélène</strong> Cime, Saint-Malo · 2025</figcaption>
+      </figure>
+      <figure class="review">
+        <blockquote>« Je voulais un bureau au fond du jardin, j'ai eu une petite maison. Le poêle chauffe tout en vingt minutes, même en janvier. »</blockquote>
+        <figcaption><strong>Marc</strong> Sève, Annecy · 2025</figcaption>
+      </figure>
+    </div>
+    <div class="reviews__dots" role="tablist" aria-label="Choisir un avis">
+      <button type="button" role="tab" aria-selected="true" aria-label="Avis 1"></button>
+      <button type="button" role="tab" aria-selected="false" aria-label="Avis 2"></button>
+      <button type="button" role="tab" aria-selected="false" aria-label="Avis 3"></button>
+    </div>
+  </div>
+  <div class="reviews__strip" aria-hidden="true">
+    <div class="reviews__marquee">
+      <span>Livrée en Bretagne</span><span>Hivernée à 1&nbsp;200&nbsp;m</span><span>Autonome en été</span><span>Montée en une journée</span><span>Livrée en Bretagne</span><span>Hivernée à 1&nbsp;200&nbsp;m</span><span>Autonome en été</span><span>Montée en une journée</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq" id="faq" aria-labelledby="faq-title">
+  <div class="wrap faq__grid">
+    <div class="faq__head">
+      <h2 class="h2" id="faq-title">Questions fréquentes</h2>
+      <p>Une autre question ? Écrivez-nous, nous répondons sous 48&nbsp;h ouvrées.</p>
+      <figure class="faq__img" data-parallax="-8"><img src="assets/img/interior-lamp.webp" alt="Chambre en bois éclairée par une lampe de chevet" loading="lazy" width="1100" height="1650"></figure>
+    </div>
+    <div class="faq__list">
+      <details class="qa" open>
+        <summary>Faut-il un permis de construire&nbsp;?</summary>
+        <div class="qa__body"><div><p>Sur remorque, une tiny house est considérée comme une résidence mobile. Au-delà de trois mois par an sur le même terrain, une déclaration préalable ou un permis d'aménager est en général nécessaire. Nous préparons le dossier avec vous.</p></div></div>
+      </details>
+      <details class="qa">
+        <summary>Quels sont les délais de fabrication&nbsp;?</summary>
+        <div class="qa__body"><div><p>Comptez 10 à 14 semaines entre la validation des plans et la livraison, selon le modèle et la saison. Vous pouvez visiter l'atelier pendant la construction.</p></div></div>
+      </details>
+      <details class="qa">
+        <summary>Comment se passe la livraison&nbsp;?</summary>
+        <div class="qa__body"><div><p>Nous livrons nous-mêmes par convoi, puis nous calons et raccordons la maison sur place. La livraison est incluse jusqu'à 600&nbsp;km de l'atelier, au-delà elle est chiffrée au devis.</p></div></div>
+      </details>
+      <details class="qa">
+        <summary>Peut-on y vivre toute l'année&nbsp;?</summary>
+        <div class="qa__body"><div><p>Oui. Nos maisons sont isolées comme une construction neuve et testées pour des hivers à −15&nbsp;°C. Le pack grand froid ajoute un triple vitrage pour les sites d'altitude.</p></div></div>
+      </details>
+      <details class="qa">
+        <summary>Proposez-vous un financement&nbsp;?</summary>
+        <div class="qa__body"><div><p>Nous travaillons avec deux organismes partenaires pour un prêt dédié. Un acompte de 30&nbsp;% est demandé à la commande, le solde à la livraison.</p></div></div>
+      </details>
+      <details class="qa">
+        <summary>La maison peut-elle être autonome&nbsp;?</summary>
+        <div class="qa__body"><div><p>Avec le kit solaire, une récupération d'eau de pluie et des toilettes sèches, une Sève ou un Refuge peut fonctionner hors réseau d'avril à octobre. Nous dimensionnons l'installation selon votre usage.</p></div></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact" aria-labelledby="contact-title">
+  <div class="contact__bg" aria-hidden="true"><img src="assets/img/mist-valley.webp" alt="" loading="lazy" width="1800" height="1202"></div>
+  <div class="wrap contact__grid">
+    <div class="contact__copy">
+      <h2 class="h2" id="contact-title">Venez sentir le bois.</h2>
+      <p>L'atelier est ouvert aux visites le vendredi et le samedi, sur rendez-vous. Deux maisons témoins sont toujours montées dans le pré derrière l'atelier.</p>
+      <address>
+        Atelier Sylve<br>
+        412 route des Bains, 38250 Villard-de-Lans<br>
+        <span class="selectable">04 76 00 00 00</span> · <span class="selectable">bonjour@sylve-demo.fr</span>
+      </address>
+    </div>
+    <form class="contact__form" id="contactForm" novalidate>
+      <div class="field-row">
+        <div class="field"><label for="f-name">Nom</label><input id="f-name" name="name" type="text" autocomplete="name" required placeholder="Camille Martin"></div>
+        <div class="field"><label for="f-email">E-mail</label><input id="f-email" name="email" type="email" autocomplete="email" required placeholder="camille@exemple.fr"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label for="f-model">Modèle</label>
+          <select id="f-model" name="model">
+            <option value="">Je ne sais pas encore</option>
+            <option value="seve">Sève</option>
+            <option value="refuge">Refuge</option>
+            <option value="cime">Cime</option>
+            <option value="large">Grand Large</option>
+          </select>
+        </div>
+        <div class="field"><label for="f-type">Demande</label>
+          <select id="f-type" name="type">
+            <option>Visite de l'atelier</option>
+            <option>Devis détaillé</option>
+            <option>Question sur un terrain</option>
+          </select>
+        </div>
+      </div>
+      <div class="field"><label for="f-msg">Votre projet</label><textarea id="f-msg" name="msg" rows="4" placeholder="Terrain, usage, calendrier…"></textarea></div>
+      <button class="btn btn--light" type="submit"><span>Envoyer la demande</span></button>
+      <p class="form-status" id="formStatus" role="status"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <p class="footer__tag">Vivre petit, respirer grand.</p>
+      <nav class="footer__links" aria-label="Liens de pied de page">
+        <a href="#modeles">Modèles</a><a href="#atelier">Savoir-faire</a><a href="#configurateur">Configurer</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <p class="footer__word" aria-hidden="true"><span>S</span><span>y</span><span>l</span><span>v</span><span>e</span></p>
+    <div class="footer__bottom">
+      <p>Site de démonstration. L'entreprise, les prix et les avis sont fictifs.</p>
+      <p>Photos : Pexels (Rachel Claire, Ron Lach, Quang Nguyen Vinh, Ata Ebem et d'autres).</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
+<script src="js/main.js"></script>
+<!--BODY-END-->
+</body>
+</html>
